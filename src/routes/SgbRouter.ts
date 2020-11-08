@@ -216,12 +216,12 @@ public studentCourses(req: Request, res: Response, next: NextFunction) {
 	}
 
 	public generate_latency() {
-		var sleep = require('system-sleep');
-		let latency:number = this.router_latency
-		let random:number = Math.random()
-		let delay:number  = +(random * latency * 1000).toFixed();
+		//var sleep = require('system-sleep');
+		//let latency:number = this.router_latency
+		 //let random:number = Math.random()
+		//let delay:number  = +(random * latency * 1000).toFixed();
 		// console.log("Use a latency of", delay, ' milliseconds')
-		sleep(delay)
+		// sleep(delay)
 	}
 
 	//apidoc -i src/routes/ -o docs/
