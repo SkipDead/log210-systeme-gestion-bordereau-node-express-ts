@@ -79,6 +79,8 @@ export class SgbRouter {
 		} catch (error) {
 			let code = 500; // internal server error
 			res.status(code).json({ error: error.toString() });
+			console.log("test");
+			console.log(error);
 		}
 	}
 
@@ -103,6 +105,7 @@ export class SgbRouter {
 		} catch (error) {
 			let code = 500; // internal server error
 			res.status(code).json({ error: error.toString() });
+			console.log("student note : " + error);
 		}
 	}
 
@@ -123,6 +126,7 @@ export class SgbRouter {
 		} catch (error) {
 			let code = 500; // internal server error
 			res.status(code).json({ error: error.toString() });
+			console.log("student note : " + error);
 		}
 	}
 
